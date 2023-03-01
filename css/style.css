@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca Light";
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+p, a, li {
+    font-size: 1.7rem;
+    color: #20262E;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-bars {
+    font-size: 3.2rem;
+}
+
+header {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*background-color: red;*/
+}
+
+.navbar {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.3s linear;
+}
+
+.nav-first{
+    width: 50%;
+    max-width: 52rem;
+    min-width: 32rem;
+    background-color: #655DBB;
+}
+
+.nav-second{
+    background-color: #3E54AC;
+    width: 95%;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: #ECF2FF;
+}
+
+.navbar-list ul{
+ display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    list-style: none;
+}
+
+.navbar-list a{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+}
+
+.navbar-list a:hover{
+    text-decoration: underline;
+    color: #3E54AC;
+}
+
+
+.active{
+    transform: translateX(0);
+}
+
+.fa-square-xmark{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    font-size: 3.2rem;
+}
+
+
+
+
+
+
+
+
+
